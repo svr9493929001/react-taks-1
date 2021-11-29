@@ -55,16 +55,11 @@ function App() {
           Support={ele.Support}
           Subdmain={ele.Subdmain}
           Monthly={ele.Monthly}
-          id ={i}
         />
       ))}
     </div>
   );
-  function Card({title,price,users,storage,Public,access,Private,Support,Subdmain,Monthly,id}) {
-    let styles
-    {id === 0 ?  (styles = { opacity: "50%" }) : (styles = { opacity: "100%" })}
-    let s 
-    {id === 1 || id === 0 ?  (s = { opacity: "50%" }) : (s = { opacity: "100%" })}
+  function Card({title,price,users,storage,Public,access,Private,Support,Subdmain,Monthly}) {
     return (
       <div className="container">
         <h3>{title}</h3>
@@ -78,9 +73,9 @@ function App() {
           <h3>{Public}</h3>
           <h3>{access}</h3>
           <h3>{Private}</h3>
-          <h3 style={styles}>{Support}</h3>
-          <h3 style={styles}>{Subdmain}</h3>
-          <h3 style={s}>{Monthly}</h3>
+          <h3 className="opc">{Support}</h3>
+          <h3 className="opc">{Subdmain}</h3>
+          <h3 className="opc">{Monthly}</h3>
         </div>
         <button>BUTTON</button>
       </div>
