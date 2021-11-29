@@ -29,9 +29,14 @@ button {
   flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
-  font-family: "sans-serif";
 }
 body{
     background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF)
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+span{
+  font-size: 15px;
+}
+h4{
+  opacity: 50%;
 }
