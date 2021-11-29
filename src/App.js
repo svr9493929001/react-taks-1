@@ -62,7 +62,7 @@ function App() {
   function Card({title,price,users,storage,Public,access,Private,Support,Subdmain,Monthly}) {
     return (
       <div className="container">
-        <h4>{title}</h4>
+        <h4 className="h">{title}</h4>
         <h1>
           ${price} <span>/month</span>{" "}
         </h1>
