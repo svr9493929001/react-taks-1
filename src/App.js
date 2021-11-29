@@ -73,9 +73,9 @@ function App() {
           <h3>{Public}</h3>
           <h3>{access}</h3>
           <h3>{Private}</h3>
-          <h3 className="opc">{Support}</h3>
-          <h3 className="opc">{Subdmain}</h3>
-          <h3 className="opc">{Monthly}</h3>
+          <h3>{Support}</h3>
+          <h3>{Subdmain}</h3>
+          <h3>{Monthly}</h3>
         </div>
         <button>BUTTON</button>
       </div>
